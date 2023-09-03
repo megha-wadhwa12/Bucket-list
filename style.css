@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');  */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Teko:wght@500&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@900&display=swap'); */
+
+
+body{
+    /* text-align: center; */
+    background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png");
+    background-size: 100% 230px;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    /* margin:auto; */
+    /* display: block; */
+
+}
+
+.container{
+    text-align: center;
+    /* padding: 20px 20px 0px 450px;  */
+    /* background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png");
+    background-size: 100% 85%;
+    background-repeat: no-repeat; */
+
+} 
+.heading{
+    /* text-align: center; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 37px;
+    padding-top: 20px;
+    /* padding: 20px 0 0 480px; */
+}
+
+#input-field{
+    border-radius: 20px;
+    width: 240px;
+    height: 34px;
+    overflow: visible;
+    
+    /* border-radius: 30%; */
+}
+
+.btnsubmit{
+    /* padding-top: 100px; */
+    border-radius: 20px;
+    margin-left: -60px;
+    height: 39px;
+    width: 60px;
+    background-color:#E9C350 ;
+}
+
+.list-container{
+    padding-top: 10%;
+    justify-content: center;
+    /* text-align: justify; */
+}
+
+.hint{
+    text-align: center;
+    /* text-align: justify; */
+    /* flex-wrap: wrap; */
+}
+
+.btn-reset{
+    background-color: #E9C350;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: medium;
+    width: 180px;
+    margin-top: 20px; 
+    font-family: 'Anton', sans-serif;
+    /* font-family: 'Teko', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.footer{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.input-container{
+    margin-top: 30px;
+    
+}
+
+ul{
+    list-style: none;
+}
+li{
+    
+    margin: auto;
+    text-align: start;
+    /* height: 35px; */
+    width: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    border:1px solid #828282;
+    width: 400px;
+    margin-top: 15px;
+    padding: 15px;
+}
